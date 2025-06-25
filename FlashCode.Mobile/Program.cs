@@ -1,5 +1,6 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
+using Microsoft.Maui.Controls;
 
 var builder = MauiApp.CreateBuilder();
 builder.UseMauiApp<App>();
@@ -7,9 +8,10 @@ builder.UseMauiApp<App>();
 var app = builder.Build();
 app.Run();
 
-public class App : Application
+class App : Application
 {
-    protected override void OnLaunched(LaunchActivatedEventArgs args)
+    public App()
     {
+        MainPage = new LoginPage();
     }
 }
