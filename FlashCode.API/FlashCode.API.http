@@ -1,0 +1,6 @@
+@FlashCode.API_HostAddress = http://localhost:5010
+
+GET {{FlashCode.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
