@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCode.API", "FlashCode.API\FlashCode.API.csproj", "{b7d127e7-b172-4829-a765-3638c2549321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCode.Dashboard", "FlashCode.Dashboard\FlashCode.Dashboard.csproj", "{cf9135be-85de-4e5e-aba5-b11f04aecdfd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCode.Mobile", "FlashCode.Mobile\FlashCode.Mobile.csproj", "{dca2bc4f-d2d1-403c-ae57-02d46e9a91e7}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {b7d127e7-b172-4829-a765-3638c2549321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {b7d127e7-b172-4829-a765-3638c2549321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {b7d127e7-b172-4829-a765-3638c2549321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {b7d127e7-b172-4829-a765-3638c2549321}.Release|Any CPU.Build.0 = Release|Any CPU
+        {cf9135be-85de-4e5e-aba5-b11f04aecdfd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {cf9135be-85de-4e5e-aba5-b11f04aecdfd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {cf9135be-85de-4e5e-aba5-b11f04aecdfd}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {cf9135be-85de-4e5e-aba5-b11f04aecdfd}.Release|Any CPU.Build.0 = Release|Any CPU
+        {dca2bc4f-d2d1-403c-ae57-02d46e9a91e7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {dca2bc4f-d2d1-403c-ae57-02d46e9a91e7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {dca2bc4f-d2d1-403c-ae57-02d46e9a91e7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {dca2bc4f-d2d1-403c-ae57-02d46e9a91e7}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal
