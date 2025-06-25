@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;
+using FlashCode.Mobile.Services;
 
 namespace FlashCode.Mobile
 {
@@ -14,6 +15,9 @@ namespace FlashCode.Mobile
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+
+            builder.Services.AddSingleton(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5001") });
+            builder.Services.AddSingleton<RegistrationService>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
