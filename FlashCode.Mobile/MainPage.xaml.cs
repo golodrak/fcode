@@ -12,7 +12,7 @@ namespace FlashCode.Mobile
         public MainPage()
         {
             InitializeComponent();
-            _service = Application.Current!.Services.GetService<RegistrationService>()!;
+            _service = Application.Current!.Handler.MauiContext.Services.GetService<RegistrationService>()!; // Update this line
         }
 
         protected override async void OnAppearing()
